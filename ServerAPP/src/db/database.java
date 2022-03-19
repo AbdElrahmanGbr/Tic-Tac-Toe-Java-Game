@@ -162,7 +162,7 @@ public class database {
     public int insertDoneGame(int winner, int loser, boolean draw){
         int status = 0;
         try {
-            String insertNewGame = new String("insert into done_games(player_1, player_2, draw) values(?, ?, ?);");
+            String insertNewGame = new String("insert into done_games(player_1, player_2, gdraw) values(?, ?, ?);");
             preparedSt = connection.prepareStatement(insertNewGame);
             preparedSt.setInt(1, winner);
             preparedSt.setInt(2, loser);

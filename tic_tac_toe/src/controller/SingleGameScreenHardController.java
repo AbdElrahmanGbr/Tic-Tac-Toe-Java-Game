@@ -137,7 +137,7 @@ public class SingleGameScreenHardController implements Initializable {
         dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE); 
         dialog.setTitle("Game Over");
         dialog.show();
-        audio("Loser.mp3");
+        audio("Loser2.mp3");
     }
      
     private void checkPlayer(){
