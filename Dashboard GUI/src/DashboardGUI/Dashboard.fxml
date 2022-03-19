@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="698.0" prefWidth="794.0" stylesheets="@CSS/login.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashboardGUI.DashboardController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="700.0" layoutX="-2.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#da4167" />
+                  <Stop color="#da4167" offset="0.007246376811594203" />
+                  <Stop color="#2c6ea8" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Label layoutX="14.0" layoutY="8.0" opacity="0.64" text="Dashboard" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="StartBtn" fitHeight="125.0" fitWidth="123.0" layoutX="126.0" layoutY="141.0" onMouseEntered="#onStartHover" onMouseExited="#onStartExit" onMousePressed="#startOnPress" onMouseReleased="#startOnRelease" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@play-button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="StopBtn" fitHeight="123.0" fitWidth="123.0" layoutX="126.0" layoutY="357.0" onMouseEntered="#onStopHover" onMouseExited="#onStopExit" onMousePressed="#stopOnPress" onMouseReleased="#stopOnRelease" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stop-button.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="146.0" layoutY="274.0" opacity="0.54" text="START" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="494.0" opacity="0.54" text="STOP" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="323.0" layoutY="42.0" prefHeight="499.0" prefWidth="438.0">
+        <columns>
+          <TableColumn fx:id="players" prefWidth="177.0" text="Players" />
+          <TableColumn fx:id="score" prefWidth="142.0" text="Score" />
+            <TableColumn fx:id="status" prefWidth="118.0" text="Status" />
+        </columns>
+         <stylesheets>
+            <URL value="@CSS/PlayerInvitationTable.css" />
+            <URL value="@CSS/scrollPane.css" />
+         </stylesheets>
+      </TableView>
+   </children>
+</AnchorPane>

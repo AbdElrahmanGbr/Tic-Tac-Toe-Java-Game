@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@../CSS/login.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SingleModeMenu">
+   <children>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="189.0" layoutY="218.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="531.0" layoutY="240.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="370.0" layoutY="351.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="437.0" layoutY="138.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="395.0" layoutY="303.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="273.0" layoutY="351.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="574.0" layoutY="320.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="217.0" layoutY="283.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="314.0" layoutY="240.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="253.0" layoutY="148.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="116.0" layoutX="353.0" layoutY="26.0" opacity="0.41" pickOnBounds="true" preserveRatio="true" rotate="-3.2">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="32.0" layoutY="234.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="578.0" layoutY="200.0" opacity="0.09" pickOnBounds="true" preserveRatio="true" rotate="-82.9">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="323.0" layoutY="420.0" opacity="0.14" pickOnBounds="true" preserveRatio="true" rotate="-70.3">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="42.0" layoutY="485.0" opacity="0.14" pickOnBounds="true" preserveRatio="true" rotate="-73.3">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="26.0" layoutY="57.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="128.0" layoutY="234.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="674.0" layoutY="354.0" opacity="0.14" pickOnBounds="true" preserveRatio="true" rotate="35.0">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="582.0" layoutY="303.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="89.0" layoutY="335.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="504.0" layoutY="151.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="587.0" layoutY="70.0" opacity="0.09" pickOnBounds="true" preserveRatio="true" rotate="61.7">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="155.0" layoutY="93.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="121.0" layoutY="25.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="17.0" layoutY="410.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="504.0" layoutY="329.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="-10.0" layoutY="331.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="128.0" layoutY="139.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="128.0" layoutY="315.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="618.0" layoutY="139.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="63.0" layoutY="15.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="592.0" layoutY="10.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="121.0" layoutY="77.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="14.0" layoutY="165.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="10.0" layoutY="195.0" opacity="0.14" pickOnBounds="true" preserveRatio="true" rotate="38.7">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="558.0" layoutY="52.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="504.0" layoutY="83.0" opacity="0.14" pickOnBounds="true" preserveRatio="true" rotate="-65.0">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="618.0" layoutY="267.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="690.0" layoutY="231.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="53.0" layoutY="182.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="532.0" layoutY="9.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutX="15.0" layoutY="556.0" mnemonicParsing="false" onAction="#BackButtonAction" onMouseEntered="#backOnHover" onMousePressed="#backOnPress" onMouseReleased="#backOnRelease" prefHeight="25.0" prefWidth="105.0" style="-fx-background-radius: 30;" stylesheets="@../CSS/login.css" text="Back" textFill="#135ac2">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="519.0" layoutY="534.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="602.0" layoutY="453.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="690.0" layoutY="498.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="633.0" layoutY="522.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="607.0" layoutY="393.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="690.0" layoutY="404.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="592.0" layoutY="522.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="547.0" layoutY="392.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="703.0" layoutY="315.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="706.0" layoutY="129.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="650.0" layoutY="42.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="726.0" layoutY="479.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="722.0" layoutY="16.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="186.0" layoutY="478.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="134.0" layoutY="384.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="263.0" layoutY="420.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="236.0" layoutY="466.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="122.0" layoutY="492.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="118.0" layoutY="522.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="161.0" layoutY="509.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="253.0" layoutY="51.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="323.0" layoutY="518.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="395.0" layoutY="485.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="660.0" layoutY="330.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="587.0" layoutY="259.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="182.0" layoutY="10.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="464.0" layoutY="427.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="52.0" layoutY="495.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="simpleModeButton" layoutX="297.0" layoutY="206.0" mnemonicParsing="false" onAction="#simpleModeButtonAction" onMouseEntered="#simpleOnHover" onMouseExited="#simpleOnExit" onMousePressed="#simpleOnPress" onMouseReleased="#simpleOnRelease" prefHeight="35.0" prefWidth="250.0" style="-fx-background-radius: 30px;" stylesheets="@../CSS/login.css" text="Easy" textAlignment="CENTER" textFill="#960606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="mediumModeButton" layoutX="297.0" layoutY="298.0" mnemonicParsing="false" onAction="#mediumModeButtonAction" onMouseEntered="#medOnHover" onMouseExited="#medOnExit" onMousePressed="#medOnPress" onMouseReleased="#medOnRelease" prefHeight="35.0" prefWidth="250.0" style="-fx-background-radius: 30px;" stylesheets="@../CSS/login.css" text="Medium" textAlignment="CENTER" textFill="#960606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="hardModeButton" layoutX="297.0" layoutY="396.0" mnemonicParsing="false" onAction="#hardModeButtonAction" onMouseEntered="#hardOnHover" onMouseExited="#hardOnExit" onMousePressed="#hardOnPress" onMouseReleased="#hardOnRelease" prefHeight="35.0" prefWidth="250.0" style="-fx-background-radius: 30px;" stylesheets="@../CSS/login.css" text="Hard" textAlignment="CENTER" textFill="#960606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

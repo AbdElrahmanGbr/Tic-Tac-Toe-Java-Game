@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@../CSS/login.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SingleGameScreenMediumController">
+    <children>
+      <Circle fill="#00000032" layoutX="146.0" layoutY="61.0" radius="35.0" stroke="#eb2f2f" strokeType="INSIDE" strokeWidth="2.0" />
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/x.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ur_score" layoutX="143.0" layoutY="39.0" prefHeight="45.0" prefWidth="6.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="62.0" fitWidth="64.0" layoutX="738.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/oO.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="694.0" layoutY="10.0" text="PC" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Circle fill="#00000032" layoutX="659.0" layoutY="61.0" radius="35.0" stroke="#600fbc" strokeType="INSIDE" strokeWidth="2.0" />
+      <Label fx:id="cump_score" layoutX="656.0" layoutY="38.0" prefHeight="45.0" prefWidth="6.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="361.0" layoutY="105.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="361.0" layoutY="248.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="361.0" layoutY="385.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Button fx:id="resetButton" layoutX="364.0" layoutY="542.0" onAction="#playAgainButtonAction" onMouseEntered="#resetOnHover" onMousePressed="#resetOnPress" onMouseReleased="#resetOnRelease" prefHeight="25.0" prefWidth="92.0" style="-fx-background-radius: 15px; -fx-background-color: rgba(255, 255, 255, 0.5);" text="Reset" textFill="#a80505">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="screenshotBtn" layoutX="510.0" layoutY="542.0" onAction="#ScreenshotButtonAction" onMouseEntered="#screenOnHover" onMousePressed="#screenOnPress" onMouseReleased="#screenOnRelease" prefHeight="31.0" prefWidth="158.0" style="-fx-background-radius: 15px; -fx-background-color: rgba(255, 255, 255, 0.5);" text="Screenshot" textFill="#6c15d4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="191.0" layoutY="542.0" onAction="#BackButtonAction" onMouseEntered="#backOnHover" onMousePressed="#backOnPress" onMouseReleased="#backOnRelease" prefHeight="25.0" prefWidth="92.0" style="-fx-background-radius: 15px; -fx-background-color: rgba(255, 255, 255, 0.5);" text="Back" textFill="#6c15d4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="53.0" text="You" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="b4" fitHeight="100.0" fitWidth="100.0" layoutX="366.0" layoutY="254.0" onMouseClicked="#b4ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b7" fitHeight="100.0" fitWidth="100.0" layoutX="366.0" layoutY="390.0" onMouseClicked="#b7ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b1" fitHeight="100.0" fitWidth="100.0" layoutX="366.0" layoutY="110.0" onMouseClicked="#b1ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="13.0" layoutY="363.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="59.0" layoutY="280.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="20.0" layoutY="185.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="109.0" layoutY="363.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="28.0" layoutY="440.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="149.0" layoutY="221.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="115.0" layoutY="153.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="34.0" layoutY="506.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="84.0" layoutY="265.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="98.0" layoutY="427.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="57.0" layoutY="143.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="115.0" layoutY="205.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="155.0" layoutY="446.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="34.0" layoutY="311.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="8.0" layoutY="73.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="120.0" layoutY="107.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="198.0" layoutY="106.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="198.0" layoutY="249.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="198.0" layoutY="386.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <ImageView fx:id="b3" fitHeight="100.0" fitWidth="100.0" layoutX="202.0" layoutY="252.0" onMouseClicked="#b3ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b0" fitHeight="100.0" fitWidth="100.0" layoutX="203.0" layoutY="111.0" onMouseClicked="#b0ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b6" fitHeight="100.0" fitWidth="100.0" layoutX="202.0" layoutY="391.0" onMouseClicked="#b6ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="623.0" layoutY="369.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="656.0" layoutY="242.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="609.0" layoutY="174.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="706.0" layoutY="325.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="733.0" layoutY="184.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="699.0" layoutY="116.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="619.0" layoutY="466.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="706.0" layoutY="230.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="706.0" layoutY="378.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="641.0" layoutY="106.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="699.0" layoutY="168.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="592.0" layoutY="256.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="494.0" layoutY="353.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="631.0" layoutY="273.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="410.0" layoutY="25.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="698.0" layoutY="475.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="496.0" layoutY="26.0" opacity="0.04" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pattern.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="534.0" layoutY="104.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="534.0" layoutY="247.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff5b" height="110.0" layoutX="534.0" layoutY="384.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#978989" height="43.21" offsetX="0.5" offsetY="0.5" radius="19.0225" spread="0.2" width="34.88" />
+         </effect>
+      </Rectangle>
+      <ImageView fx:id="b2" fitHeight="100.0" fitWidth="100.0" layoutX="538.0" layoutY="109.0" onMouseClicked="#b2ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b5" fitHeight="100.0" fitWidth="100.0" layoutX="539.0" layoutY="252.0" onMouseClicked="#b5ButtonAction" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="b8" fitHeight="100.0" fitWidth="100.0" layoutX="538.0" layoutY="389.0" onMouseClicked="#b8ButtonAction" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>
