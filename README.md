@@ -38,6 +38,8 @@ Multi player mode #### (Two players in the same pc)
 * By default, player 1 is X and O has allotted to player 2 automatically and vise verse for the next game.
 * The main game grid has to display in the device.
 
+https://user-images.githubusercontent.com/99536233/159127655-fe4bde8e-1323-4b17-afec-a89477238d68.mp4
+
 ***
 
 ### Note that:
