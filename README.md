@@ -63,9 +63,10 @@ Online mode
 </br>
 
 **Finally we hope you enjoy playing the game.**
-
-</br>@AbdElrahman Gbr(abdelrahman.gbr.os@gmail.com)
-@Eid Mohammed(omnia1699@gmail.com)
-@Mohammed Atef(mohammedatef2050@gmail.com)
-@Reem Elbakry(reemelbakry95@gmail.com)
-@Omnia El3dwy(omnia1699@gmail.com)
+</br>
+Authors
+- [AbdElrahman Gbr](https://github.com/AbdElrahmanGbr)
+- [Eid Azzam](https://github.com/eidazzam)
+- [Mohammed Atef](https://github.com/MOhammedAtef2019)
+- [Omnia Eladwy](https://github.com/OmniaEladawy)
+- [Reem Elbakry](https://github.com/reem-elbakry)
