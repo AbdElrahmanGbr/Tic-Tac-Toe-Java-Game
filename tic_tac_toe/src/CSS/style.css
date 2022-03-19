@@ -1,0 +1,24 @@
+.button{
+	-fx-background-color: #e3f1ff;
+        -fx-background-radius: 15px;
+        -fx-alignment: center ;
+        -fx-effect: dropshadow(one-pass-box,#00000080, 10 , 0, 0, 0);
+}
+
+.root{
+	-fx-background-color: Linear-gradient(from 0% 45% to 100% 100% , repeat , #7BE1D7 0% , #69c9ec 17% , #d08cde 65% , #fc7c55 94% , #fabe6b 100%);
+}
+
+#logo{
+    -fx-effect: dropshadow(one-pass-box,#00000080, 10 , 0, 0, 0);
+}
+
+#xBtn{
+    -fx-text-fill: #F86156; 
+    -fx-font-size: 40px;
+    -fx-font-weight: bold; 
+}
+
+
+
+

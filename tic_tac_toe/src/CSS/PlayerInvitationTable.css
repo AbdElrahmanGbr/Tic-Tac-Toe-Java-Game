@@ -1,0 +1,53 @@
+.table-view{
+   -fx-background-color: transparent;
+   -fx-background-radius: 10;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+    
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#CB4335 0%, #CB4335 100%);
+    -fx-background-radius: 10;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #2E4760;
+    -fx-background-radius: 10;
+    
+    }
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #FFFFFF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+    -fx-background-radius: 3;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #F8F8F8;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-background-radius: 3;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #F9E79F;
+    -fx-background-insets: 0;
+}
+.table-view .column-header-background .filler {
+    -fx-background-color: linear-gradient(#101010 0%, #CB4335 100%);
+}

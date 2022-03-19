@@ -1,0 +1,9 @@
+.root{
+    /* -fx-background-color: linear-gradient(to left, rgba(248,97,86,1) 0%, rgba(250,191,106,1) 26%, rgba(255,255,255,1) 51%, rgba(123,225,215,1) 76%, rgba(116,191,237,1) 100%); */
+    
+    
+    -fx-background-color: Linear-gradient(from 0% 45% to 100% 100% , repeat , #7BE1D7 0% , #69c9ec 17% , #d08cde 65% , #fc7c55 94% , #fabe6b 100%);
+}
+
+
+
