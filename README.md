@@ -8,6 +8,10 @@ and in this project, we introduce another experience in tic tac toe by implement
 
 
 
+
+https://user-images.githubusercontent.com/99536233/159127536-6c52d5eb-958b-49b4-94b9-76a1366dd9f2.mp4
+
+
 ## Getting Started
 this project is to develop a Tic-Tac-Toe game for desktop devices. The game is supposed to consist of three parts, one a single player game a player
 against a system, two players in the same pc, and the other a multi-player game (two players on their desktop devices, playing against each other). In order to
