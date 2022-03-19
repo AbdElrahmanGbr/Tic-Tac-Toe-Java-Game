@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.scene.control.DialogPane?>
-
-
-<DialogPane prefHeight="150.0" prefWidth="500.0" style="-fx-background-color: Linear-gradient(from 0% 45% to 100% 100% , repeat , #7BE1D7 0% , #69c9ec 17% , #d08cde 65% , #fc7c55 94% , #fabe6b 100%);" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" />
