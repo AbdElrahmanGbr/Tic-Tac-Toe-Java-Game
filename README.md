@@ -1,4 +1,4 @@
-# ITI-Tic-Tac-Toe-Game
+# Tic-Tac-Toe-Java-Game
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
@@ -38,31 +38,16 @@ Multi player mode #### (Two players in the same pc)
 * By default, player 1 is X and O has allotted to player 2 automatically and vise verse for the next game.
 * The main game grid has to display in the device.
 
-
-<pre>
-Online mode
-</pre>
-* Using Network as communication channel the two players should play TicTac-Toe game from different devices by entering server is.
-* Players should have log in by enter his username and password.
-* Also, there is another option if player don’t have an active account to register by enter his/her first, second and user name, password and gender.
-* player can send invitation to online player by pressing on their name on the list to play against them, once he accepts the request both of them will became unavailable to other players until the game ends or one of them ends it note that the available players list refreshes automatically every 5s.
-* And now the main game grid has to display in both devices.
-* By default, player 1 is X and O has allotted to player 2 automatically and vise verse for the next game.
-</br>
-
- **The Server App**
- 
 ***
 
 ### Note that:
 * All records are saved locally on the device.
 * The screen size is fixed and user is not able to change the size.
 *  There is back button in every page that leads the user to the previous page.
-* There is music that is running in the background after opening the game.
 * There is sound button in every page which enable the user to turn off the sound or put it on again.
 * to view your records there is a rec button in the main menu user is able to press on and their will be list of the recorded matches.
-* At the main menu there is a button for about information.
 * At the main menu there is a button exit the game.
+* there is profile button in the top right of the main menu screen
 </br>
 </br>
 
