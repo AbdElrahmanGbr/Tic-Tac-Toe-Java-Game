@@ -6,10 +6,9 @@ it is a relatively simple game usually played on a grid of 3-by-3 squares, tic-t
 played online with other user or offline the computer and even to choose the mode whether easy, medium or hard by implementing some AI algorithms
 and in this project, we introduce another experience in tic tac toe by implementing attractive GUI with relaxation music to gain the users attentions.
 
+#Demo
 
-
-
-https://user-images.githubusercontent.com/99536233/159127536-6c52d5eb-958b-49b4-94b9-76a1366dd9f2.mp4
+https://user-images.githubusercontent.com/99536233/159185915-4aa1a207-30d3-4630-a2bb-5211b5e3d391.mp4
 
 
 ## Getting Started
@@ -38,7 +37,6 @@ Multi player mode #### (Two players in the same pc)
 * By default, player 1 is X and O has allotted to player 2 automatically and vise verse for the next game.
 * The main game grid has to display in the device.
 
-https://user-images.githubusercontent.com/99536233/159127655-fe4bde8e-1323-4b17-afec-a89477238d68.mp4
 
 ***
 
